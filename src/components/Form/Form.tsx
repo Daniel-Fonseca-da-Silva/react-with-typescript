@@ -14,7 +14,7 @@ class Form extends React.Component {
         </div>
         <div className={style.inputContainer}>
           <Button
-          texto="Adicionar"
+          texto='Adicionar'
           />
         </div>
       </form>
