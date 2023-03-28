@@ -18,13 +18,13 @@ function App() {
   }
 
   return (
-    <div className={style.AppStyle}>
-      <Form setTarefas={setTarefas}/>
+    <div className={ style.AppStyle }>
+      <Form setTarefas={ setTarefas }/>
       <Lista 
-      tarefas={tarefas} 
-      selecionaTarefa={selecionaTarefa}
+      tarefas={ tarefas } 
+      selecionaTarefa={ selecionaTarefa }
       />
-      <Chronometer/>
+      <Chronometer selecionado={ selecionado }/>
     </div>
   );
 }
